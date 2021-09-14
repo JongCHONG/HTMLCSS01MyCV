@@ -6,7 +6,6 @@ body {
     font-family: Poppins;
 }
 nav {
-    max-width: auto;
     background-color:teal;
     padding: 20px 0 20px 20px;
     color: white;
@@ -42,7 +41,6 @@ nav a {
 }
 .teal {
     background-color: teal;
-    padding: 40px 0 40px 230px;
     color: white;
 }
 .teal h3{
@@ -53,4 +51,38 @@ nav a {
 }
 .teal ul li {
     list-style-type: circle;
+}
+.profession {
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+    .teal {
+        padding: 40px 0 40px 20px;
+    }
+    .blanc {
+        padding: 40px 0 40px 20px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .teal {
+        padding: 40px 0 40px 230px;
+    }
+    .blanc {
+        padding: 40px 0 40px 230px;
+    }
+    .profession {
+        max-width: 800px;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .teal {
+        padding: 40px 0 40px 630px;
+    }
+    .blanc {
+        padding: 40px 0 40px 630px;
+    }
+    .profession {
+        max-width: 1000px;
+    }
 }
