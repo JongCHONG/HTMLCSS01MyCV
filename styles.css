@@ -14,11 +14,32 @@ nav {
 nav h1{
     display: inline;
     margin-right: 50px;
-    font-size:x-large;
+    font-size:large;
 }
 nav a {
     margin-right: 20px;
     color: white;
     text-decoration: none;
     font-size: small;
+}
+#profil {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+#profil h2 {
+    font-weight: 900;
+    font-size: x-large;
+    margin: 40px 0;
+}
+#profil img {
+    border-radius: 50%;
+}
+.soustitre {
+    font-weight: bold;
+    color: teal;
+}
+.teal {
+    background-color: teal;
 }
