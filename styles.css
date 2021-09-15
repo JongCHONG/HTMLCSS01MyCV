@@ -39,6 +39,11 @@ nav a {
     font-weight: bold;
     color: teal;
 }
+.container {
+    margin: auto;
+    max-width: 800px;
+    padding: 40px 0;
+}
 .teal {
     background-color: teal;
     color: white;
@@ -55,34 +60,21 @@ nav a {
 .profession {
     display: flex;
     justify-content: space-between;
+    margin : 20px 0;
+    font-weight: bolder;
+}
+.details ul li{
+    margin: 10px 0;
 }
 @media only screen and (max-width: 600px) {
-    .teal {
-        padding: 40px 0 40px 20px;
+    .container {
+        padding: 40px 20px;
     }
-    .blanc {
-        padding: 40px 0 40px 20px;
-    }
+
 }
 @media only screen and (min-width: 600px) {
-    .teal {
-        padding: 40px 0 40px 230px;
-    }
-    .blanc {
-        padding: 40px 0 40px 230px;
-    }
-    .profession {
-        max-width: 800px;
-    }
+
 }
 @media only screen and (min-width: 2000px) {
-    .teal {
-        padding: 40px 0 40px 630px;
-    }
-    .blanc {
-        padding: 40px 0 40px 630px;
-    }
-    .profession {
-        max-width: 1000px;
-    }
+
 }
