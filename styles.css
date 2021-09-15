@@ -43,12 +43,18 @@ nav a {
     max-width: 800px;
     padding: 40px 0;
 }
+.formation {
+    display: flex;
+    justify-content: space-between;
+    margin : 10px 0;
+}
 .teal {
     background-color: teal;
     color: white;
 }
 .teal h3{
     font-weight: bold;
+    padding-bottom: 10px;
 }
 .teal ul {
     margin: 20px 0 0 30px;
