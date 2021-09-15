@@ -24,7 +24,6 @@ nav a {
 #profil {
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
     padding: 40px 0;
 }
 #profil h2 {
@@ -74,10 +73,17 @@ footer a {
     .container {
         padding: 40px 20px;
     }
-
+    #profil { 
+        flex-direction: column-reverse;
+    }
 }
 @media only screen and (min-width: 600px) {
-
+    .container {
+        padding: 40px 20px;
+    }
+    #profil { 
+        justify-content: space-evenly;
+    }
 }
 @media only screen and (min-width: 2000px) {
 
