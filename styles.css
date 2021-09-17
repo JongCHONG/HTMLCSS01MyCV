@@ -61,6 +61,7 @@ nav a {
 }
 .teal ul li {
     list-style-type: circle;
+    margin: 5px 0;
 }
 .profession {
     display: flex;
