@@ -31,7 +31,7 @@ nav a {
 .profil h2 {
     font-weight: 900;
     font-size: x-large;
-    margin: 40px 0;
+    margin: 20px 0;
 }
 .profil img {
     border-radius: 50%;
@@ -84,10 +84,10 @@ footer a {
     }
     .profil {
         flex-direction: column;
-        font-size: 30px;
+        font-size: 15px;
     }
     .profil h2{
-        font-size: 50px;
+        font-size: 25px;
     }
     .profil h2, p, div {
         margin: 10px 0;
